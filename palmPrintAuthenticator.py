@@ -4,7 +4,7 @@ from palmCropper import cropPalm
 from palmMatchScorer import palmMatchScore
 
 DATA_DIR = "./Palmprint/training/"
-PALM_PRINT_COUNT = 5
+PALM_PRINT_COUNT = 6
 THRESHOLD = 56
 STORED_PALM_COUNT = 8
 
@@ -58,7 +58,7 @@ def palmPrintAuthenticate(username):
             print("Valid user")
             return True
 
-        cv2.waitKey(200)
+        cv2.waitKey(130)
         counter += 1
 
     print("Palmprint Collected..")
