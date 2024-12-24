@@ -7,8 +7,7 @@ DATA_DIR = "./Palmprint/training/"
 
 # cd to current folder before running
 def main():
-    # palmPrintCollector('left')
     palmPrintAuthenticate("left")
-
-
-main()
+    
+if __name__ == "__main__":
+    main()
