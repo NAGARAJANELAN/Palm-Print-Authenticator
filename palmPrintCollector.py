@@ -4,7 +4,6 @@ import cv2
 from palmCropper import cropPalm
 
 # make sure this directory is setted up
-# DATA_DIR = "D:/delme/Palmprint_Recognition-master/self/Palmprint/training/"
 DATA_DIR = "./Palmprint/training/"
 
 # each user's 10 sample palm image is stored
@@ -53,6 +52,3 @@ def palmPrintCollector(name):
 
     cap.release()
     cv2.destroyAllWindows()
-
-
-# palmPrintCollector('nagy')
